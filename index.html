@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Máy tính CT | Home</title>
+	<meta name="description" content="Logo" />
+	<script src="javascript/jquery/jquery-2.1.1.min.js"></script>
+	<link href="javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<script src="javascript/bootstrap/js/bootstrap.min.js"></script>
+	<script src="javascript/mahardhi/jquery.elevateZoom.min.js"></script>
+	<script src="javascript/jquery/magnific/jquery.magnific-popup.min.js"></script>
+	<script src="javascript/mahardhi/owl.carousel.min.js"></script>
+	<script src="javascript/mahardhi/mahardhi_search.js"></script>
+	<script type="text/javascript" src="javascript/mahardhi/quickview.js"></script>	
+	<link href="javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+	<link href="catalog/view/theme/mahardhi/stylesheet/mahardhi/mahardhi-font.css" rel="stylesheet">
+	<link href="catalog/view/theme/mahardhi/stylesheet/mahardhi/animate.min.css" rel="stylesheet">
+	<link href="catalog/view/theme/mahardhi/stylesheet/mahardhi/owl.carousel.min.css" rel="stylesheet">
+	<link href="catalog/view/theme/mahardhi/stylesheet/mahardhi/owl.theme.default.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="javascript/jquery/magnific/magnific-popup.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="catalog/view/theme/mahardhi/stylesheet/stylesheet.css" rel="stylesheet">
+	<link href="javascript/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen" />
+	<link href="javascript/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen" />
+	<script src="javascript/jquery/swiper/js/swiper.jquery.js"></script>
+	<script src="javascript/mahardhi/tabs.js"></script>
+	<script src="javascript/mahardhi/jquery.cookie.js"></script>
+	<script src="javascript/common.js"></script>
+	<script src="javascript/mahardhi/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="catalog/view/theme/mahardhi/stylesheet/mahardhi/jquery-ui.min.css">
+	<script src="javascript/mahardhi/custom.js"></script>	
+	<link href="image/catalog/cart.png" rel="icon" />
+</head>
+<body class="common-home">
+	<!-- <div class="loader"></div> -->
+	<nav id="top">
+		<div class="container">
+			<div class="top-inner">
+				<div class="top-left hidden-xs">
+					<div class="contact"> </div>
+		    	</div>	
+				<div class="top-right">
+				<div class="currency">
+					<div class="pull-left"> </div>
+ 				</div>							
+				<div class="language">	
+					<div class="pull-left"> </div>
+				</div>
+					<!-- account -->								
+					<div id="header_ac" class="dropdown">
+						<a href="indexe223.html?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown">
+							<span>Tài Khoản</span> <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-right account-link-toggle">
+							<li>
+								<a href="./dangky.html">Đăng Ký</a>
+							</li>
+							<li>
+								<a href="./dangnhap.html">Đăng Nhập</a>
+							</li>													
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</nav>
+	<header>
+		<div class="container">
+			<div class="header-inner row">
+				<div class="header-top">
+					<div class="header-left col-md-3 col-xs-3">
+			        	<!-- start logo -->
+				        <div id="logo">
+							<a href="index.html"><img src="image/logo.jpn.png" title="Máy tính CT" alt="Your Store" class="img-responsive" /></a>
+						</div>
+					</div>
+					<div class="header-service col-md-6 col-xs-7">
+						<div class="position-content-header">
+  							<div class="service-box">   
+								<div class="promo-item row">      
+									<div class="service-item col-xs-4">         
+										<div class="service">            
+											<div class="service-icon icon1"></div>            
+											<div class="service-content">               
+												<h4 class="promo-title">Miễn phí<br> vận chuyển</h4>                                                
+											</div>         
+										</div>      
+									</div>      
+									<div class="service-item col-xs-4">         
+										<div class="service">            
+											<div class="service-icon icon2"></div>            
+											<div class="service-content">               
+												<h4 class="promo-title">Thanh toán </h4>                                                 
+											</div>         
+										</div>      
+									</div>      
+									<div class="service-item col-xs-4">         
+												
+										<div class="service">           
+											<div class="service-icon icon3"></div>            
+											<div class="service-content">               
+												<h4 class="promo-title">Hỗ trợ 24/7</h4>                                           
+											</div>         
+										</div>      
+									</div>   
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="header-right header-links col-md-3 col-xs-2">					
+						<!-- start cart -->			
+						<div class="header_cart">
+							<div id="cart" class="btn-group btn-block">
+  								<button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+									<span id="cart-total">
+										<span class="cart-text hidden-xs hidden-sm">Giỏ hàng</span>
+										<span class="cart-total">
+											<span class="cart-item">0
+												<span class="hidden-xs hidden-sm">item(s)</span>
+												<span class="hidden-xs hidden-sm"> - 0.00</span>
+											</span>
+										</span>
+									</span> 
+  								</button>
+  								<ul class="dropdown-menu header-cart-toggle pull-right ">
+      								<li>
+      									<p class="text-center product-cart-empty">Giỏ hàng của bạn đang trống!</p>
+    								</li>
+    							</ul>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+
+		<div class="header-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 menu-list hidden-sm hidden-xs">
+						<div class="box-categories"><span>Sản phẩm</span></div>
+						<div class="catgory-left">	</div>
+					</div>
+
+					<div class="col-md-9">
+						<div class="search-menu">
+							<div class="menu">
+				
+								<nav id="menu" class="navbar navbar_menu">
+									<div class="navbar-header">
+										<button type="button" class="btn btn-navbar navbar-toggle" id="btnMenuBar">
+											<span class="addcart-icon"></span>
+										</button>
+									</div>
+									<div id="topCategoryList" class="main-menu menu-navbar clearfix" data-more=More> 
+										<div class="menu-close hidden-lg hidden-md"><span id="category" class="">Menu</span><i class="icon-close"></i></div> 
+										<ul class="nav navbar-nav">
+											<li class="menulist home"><a id="home" href="index.html" >Trang chủ</a></li>
+											<li class="menulist"><a href="./nhanhieu.html">Nhãn hiệu</a></li>
+											<li class="menulist"><a href="./lienhe.html">Liên hệ</a></li>			
+											<li class="blog"><a href="./blog.html">Blogs</a></li>				
+										</ul>
+									</div>
+								</nav>
+							</div>
+							<div class="search-box">
+								<div id="mahardhiSearch" class="input-group mahardhi-search">
+									<input type="text" name="search" value="" placeholder="Tìm kiếm sản phẩm ..." class="form-control input-lg ui-autocomplete-input" />
+									<div class="btn-search input-group-btn">
+										<button type="button" class="btn btn-default btn-lg"><i class="search-icon icon-search"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+	        	</div>
+	        </div>
+		</div>	
+	</header>
+
+<div id="common-home">	
+	<div class="container">		
+		<div class="row">		
+			<aside id="column-left" class="col-sm-3 hidden-xs">
+    			<div class="main-category left-column-main-category">
+    				<div class="vertical-category-wrapper navbar-collapse navbar-ex2-collapse">
+        				<div class="vertical-category" data-more=Xem&nbsp;thêm data-less=Thu&nbsp;gọn>
+            				<ul class="category-list nav navbar-nav"> 
+                                
+								
+                				
+                            </ul> 
+        				</div>
+    				</div>
+				</div>
+  			</aside>
+			<div id="content" class="col-sm-9">
+				<div class="slideshow">
+					<div class="swiper-viewport">
+						<div id="slideshow0" class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide text-center Main-banner1">
+									<a href="#">
+										<img src="image/slides/qua.jpg" alt="Main-banner1" class="img-responsive" />
+									</a>
+								</div>
+								<div class="swiper-slide text-center Main-banner2">
+									<a href="#" >
+										<img  src="image/slides/qua.jpg" alt="Main-banner2" class="img-responsive" />
+									</a>									
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination slideshow0"></div>
+						<div class="swiper-pager">
+							<div class="swiper-button-prev"><i class="icon-left-arrow"></i></div>
+							<div class="swiper-button-next"><i class="icon-send"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="banner-outer container-outer html1 mt-30">   
+		<div class="container">      
+			<div class="row">         
+				<div class="col-xs-4">            
+					<div class="banner1 banner">               
+						<div class="inner1">                  
+							<a href="#"><img src="image/image/catalog/banners/traicay.jpg" alt="" class="img-responsive"></a>               
+						</div>            
+					</div>         
+				</div>         
+				<div class="col-xs-4">            
+					<div class="banner2 banner">               
+						<div class="inner1">                  
+							<a href="#"><img src="image/image/catalog/banners/traicay.jpg" alt="" class="img-responsive"></a>               
+						</div>            
+					</div>         
+				</div>         
+				<div class="col-xs-4">            
+					<div class="banner3 banner">               
+						<div class="inner1">                  
+							<a href="#">
+								<img src="image/image/catalog/banners/traicay.jpg" alt="" class="img-responsive">
+							</a>               
+						</div>            
+					</div>         
+				</div>      
+			</div>   
+		</div>
+	</div>
+<div class="product-tab-block mt-30 box">
+	<div class="container">
+		<div class="main-tab">
+			<div class="product-tabs box-content clearfix">
+				<div class="page-title toggled">
+					<h3># Hoa Quả Tươi</h3>
+				</div>
+				<div id="tabs" class="mahardhi-tabs section">
+					<ul class="nav nav-tabs">
+						<li>
+							<a href="#tab-featured" data-toggle="tab" class="selected"><span>Đặc sắc</span></a>
+						</li>
+						<li>
+							<a href="#tab-latest" data-toggle="tab"><span>Mới nhất</span></a>
+						</li>
+					</ul>				
+			</div>
+			<div class="all-content">				
+				<div class="tab-content block_box row">
+					<div id="tab-featured" class="tab-pane">
+						<div id="featuredTabCarousel" class="box-product  product-carousel  clearfix" data-items="4">
+							<!-- product1 -->
+							<div class="product-layout col-xs-12">
+								<div class="product-thumb transition">
+									<div class="image">
+										<a href="#">
+											<img src="image/cache/catalog/products/dautay.jpg" alt="Dell Laptop" title="Dell Laptop" class="img-responsive" />
+										</a>	
+											<div class="button-group">
+												<button type="button" data-toggle="tooltip" class="addcart" title="Add to Cart" onclick="cart.add('32');">
+													<i class="icon-supermarket"> </i>
+												</button>
+												<button type="button" class="wishlist" data-toggle="tooltip" title="Add To WishList" onclick="wishlist.add('32');">
+													<i class="icon-heart">  </i>
+												</button>
+												<button type="button" data-toggle="tooltip" class="quickview-button" title="Quickview" onclick="quickView.ajaxView('?route=product/quickview&product_id=32');">
+													<i class="icon-eye">  </i>
+												</button>
+												<button type="button" class="compare" data-toggle="tooltip" title="Add To Compare" onclick="compare.add('32');"><i class="icon-exchange">  </i>
+												</button>
+											</div>
+										</div>								
+										<div class="thumb-description clearfix">
+											<div class="caption">
+												<h4 class="product-title"><a href="#">Dâu Tây</a></h4>
+													<p class="price">1.000.000 VND </p>
+													<div class="rating">
+														<span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"> </i>
+															<i class="fa fa-star-o fa-stack-2x"> </i>
+														</span> 																													 
+														<span class="fa fa-stack">
+															<i class="fa fa-star fa-stack-2x"></i>
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span> 																													 
+														<span class="fa fa-stack">
+															<i class="fa fa-star fa-stack-2x"></i>
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span> 																													 
+														<span class="fa fa-stack">
+															<i class="fa fa-star fa-stack-2x"></i>
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span> 																													
+														<span class="fa fa-stack">
+															<i class="fa fa-star fa-stack-2x"></i>
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span> 																											
+													</div>
+											</div>									
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div id="tab-latest" class="tab-pane">
+							<div id="latestTabCarousel" class="box-product  product-carousel  clearfix" data-items="4">
+								<!-- product1 -->
+								<div class="product-layout col-xs-12">
+									<div class="product-thumb transition">
+										<div class="image">
+											<a href="#">
+												<img src="image/cache/catalog/products/dautay.jpg" alt="Gaming Remote" title="Gaming Remote" class="img-responsive" />
+											</a>	
+											<div class="button-group">
+												<button type="button" data-toggle="tooltip" class="addcart" title="Add to Cart" onclick="cart.add('49');">
+													<i class="icon-supermarket">  </i>
+												</button>
+												<button type="button" class="wishlist" data-toggle="tooltip" title="Add To WishList" onclick="wishlist.add('49');">
+													<i class="icon-heart"> </i>
+												</button>
+												<button type="button" data-toggle="tooltip" class="quickview-button" title="Quickview" onclick="quickView.ajaxView('?route=product/quickview&product_id=49');">
+													<i class="icon-eye"></i>
+												</button>
+												<button type="button" class="compare" data-toggle="tooltip" title="Add To Compare" onclick="compare.add('49');">
+													<i class="icon-exchange"></i>
+												</button>
+											</div>
+										</div>								
+										<div class="thumb-description clearfix">
+											<div class="caption">
+												<h4 class="product-title"><a href="#">Dâu Tây </a></h4>
+													<p class="price">1.000.000VND </p>
+													<div class="rating">
+														<span class="fa fa-stack">
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span>
+														<span class="fa fa-stack">
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span>
+														<span class="fa fa-stack">
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span>
+														<span class="fa fa-stack">
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span>
+														<span class="fa fa-stack">
+															<i class="fa fa-star-o fa-stack-2x"></i>
+														</span>
+													</div>
+											</div>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner-outer container-outer html2">  
+	<div class="container">    
+		<div class="row">   
+			<div class="banner4 banner col-xs-12">      
+				<div class="inner1">         
+					<a href="#"><img src="image/catalog/banners/Traicahytheomua.jpg" alt="" class="img-responsive"></a>      
+				</div>   
+			</div>    
+		</div>  
+	</div>
+</div>
+<div class="box all-products mt-30 clearfix">
+	<div class="box-heading container">
+		<div class="box-content special">
+			<div class="page-title toggled"><h3># Hoa Quả Khô</h3></div>				
+				<div class="block_box row">
+					<div id="special-carousel" class="box-product  product-carousel  clearfix">
+						<div class="product-layout  col-xs-12">
+						    <div class="product-thumb transition clearfix">
+								<div class="image">
+									<a href="#">
+										<img src="image/image/cache/catalog/products/nho.jpg" alt="Alexa Speaker" title="Alexa Speaker" class="img-responsive" />
+										<img class="img-responsive hover-img" src="image/image/cache/catalog/products/nhokho.jpg" title="Alexa Speaker" alt="Alexa Speaker"/>
+									</a>		
+								<div class="button-group">
+									<button type="button" data-toggle="tooltip" class="addcart" title="Add to Cart" onclick="cart.add('33');">
+										<i class="icon-supermarket"></i>
+									</button>
+									<button type="button" class="wishlist" data-toggle="tooltip" title="Add To WishList" onclick="wishlist.add('33');">
+										<i class="icon-heart"></i>
+									</button>
+									<button type="button" data-toggle="tooltip" class="quickview-button" title="Quickview" onclick="quickView.ajaxView('?route=product/quickview&product_id=33');">
+										<i class="icon-eye"></i>
+									</button>
+									<button type="button" class="compare" data-toggle="tooltip" title="Add To Compare" onclick="compare.add('33');">
+										<i class="icon-exchange"></i>
+									</button>
+								</div>
+							</div>								
+							<div class="thumb-description clearfix">
+								<div class="caption">
+									<h4 class="product-title">
+										<a href="#">Nho Khô</a>
+									</h4>
+									<p class="price">
+										<span class="price-new">1.000.000 VND</span>
+									</p>
+									<div class="rating">
+										<span class="fa fa-stack">
+											<i class="fa fa-star fa-stack-2x"></i>
+											<i class="fa fa-star-o fa-stack-2x"></i>
+										</span> 																							 
+										<span class="fa fa-stack">
+											<i class="fa fa-star fa-stack-2x"></i>
+											<i class="fa fa-star-o fa-stack-2x"></i>
+										</span> 																							 
+										<span class="fa fa-stack">
+											<i class="fa fa-star fa-stack-2x"></i>
+											<i class="fa fa-star-o fa-stack-2x"></i>
+										</span> 																							 
+										<span class="fa fa-stack">
+											<i class="fa fa-star fa-stack-2x"></i>
+											<i class="fa fa-star-o fa-stack-2x"></i>
+										</span> 																							 
+										<span class="fa fa-stack">
+											<i class="fa fa-star-o fa-stack-2x"></i>
+										</span> 																					
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>															
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="testimonial-block box">
+	<div class="container">
+		<div class="testimonial-container box-module">
+			<div class="page-title">
+				<h3 class="toggled">Lời chứng thực</h3>
+			</div>
+			<div class="owl-container">
+				<div class="block-content">
+					<div class="slideTestimonial owl-carousel owl-theme">
+						<div class="row-items">
+							<div class="testimonial-inner">
+								<div class="testimonial-images">
+									<img src="image/image/cache/catalog/testimonial/qua-cam.jpg" alt=" Jennifer" class="m-image-auto m-auto img-circle img-responsive">
+								</div>		
+						    	<div class="testimonial-desc">
+						        	<div class="testimonialcenter">
+							    		<i class="icon-quote1"></i>
+							    	</div>
+						    		<div class="testimonial-text">Chất lượng cao
+									</div>	
+						    		<div class="testimonial-content">
+										<div class="testimonial-author"> Giá rẻ: Giảm 20%</div>
+											<div class="testimonial-customer"> Trả góp lãi suất 0%</div>
+									</div>
+						        </div>	
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</div>
+</div>
+
+<div class="box mblog section mt-30">
+	<div class="container">
+		<div class="box-content">
+			<div class="page-title section"><h3># Hạt</h3></div>
+			<div class="block_box row">
+				<div id="blogcarousel" class="blogs-block  blog-carousel  clearfix" data-items="3">
+						<div  class="product-layout  col-xs-12">
+							<div class="item">
+								<div class="product-block blog-block transition">
+									<div class="blog-info">									
+										<div class="image">
+											<a href="index158b.html?route=blog/article&amp;article_id=1">
+												<img src="image/image/cache/catalog/blogs/huongduong.jpeg" alt="" title="" class="img-responsive" /></a>
+											<div class="zoom-post">
+												<a class="hover-zoom" href="image/image/cache/catalog/blogs/huongduong.jpeg" data-lightbox="example-set" title=""></a>
+												<a class="hover-post" href="index158b.html?route=blog/article&amp;article_id=1"></a>
+											</div>
+										</div>							
+									</div>
+									<div class="caption blog-description">
+										<div class="link_info">		
+											<span class="block-date">
+												<span class="day"></span>
+											</span>
+										<h4>Hướng Dương</h4>								
+										<div class="blog-text">
+											<span></span>
+										</div>
+										<a class="blog-read btn" onclick="location.href = ('#');"  title="Read more">Đọc thêm</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="box carousel brand">
+	<div class="container">
+		<div class="block_box row">
+			<div class="swiper-viewport">
+				<div id="carousel0" class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide col-sm-12">
+							<div class="text-center">
+								<img src="image/cache/catalog/manufactures/1-76x40.png" alt="Starbucks" class="img-responsive m-auto" />
+							</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/2-76x40.png" alt="Disney" class="img-responsive m-auto" />
+								</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/3-76x40.png" alt="Dell" class="img-responsive m-auto" />
+								</div>
+							</div>
+								<div class="swiper-slide col-sm-12">
+									<div class="text-center">
+										<img src="image/cache/catalog/manufactures/4-76x40.png" alt="Harley Davidson" class="img-responsive m-auto" />
+									</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/5-76x40.png" alt="Canon" class="img-responsive m-auto" />
+								</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/6-76x40.png" alt="Burger King" class="img-responsive m-auto" />
+								</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/7-76x40.png" alt="Coca Cola" class="img-responsive m-auto" />
+								</div>
+							</div>
+							<div class="swiper-slide col-sm-12">
+								<div class="text-center">
+									<img src="image/cache/catalog/manufactures/8-76x40.png" alt="Coca Cola" class="img-responsive m-auto" />
+								</div>
+							</div>
+						</div>
+					</div>		
+					<div class="swiper-pagination carousel0"></div>
+					<div class="swiper-pager">				
+						<div class="swiper-button-prev">
+							<i class="fa fa-angle-left"></i>
+						</div>
+						<div class="swiper-button-next">
+							<i class="fa fa-angle-right"></i>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="mt-30">
+	<div class="footer-top">
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="position-footer-left">
+  							<h5 class="hidden-lg hidden-md">Về thông tin</h5>
+							<ul class="list-unstyled">  
+								<li class="footer_aboutus">      
+									<a href="#">          
+										<img alt="" src="image/logo.jpn.png">      
+									</a>        
+									<div class="footer-desc">
+										giới thiệu
+									</div>      
+									<div class="social-media">        
+										<h4>Follow</h4>          
+										<a href="#">
+											<i class="fa fa-facebook"></i>
+										</a>          
+										<a href="#">
+											<i class="fa fa-twitter"></i>
+										</a>          
+										<a href="#">
+											<i class="fa fa-youtube-play"></i>
+										</a>          
+										<a href="#">
+											<i class="fa fa-google-plus"></i>
+										</a>          
+										<a href="#"> 
+											<i class="fa fa-pinterest-p"></i>
+										</a>      
+									</div>  
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+				        <h5>Thông tin</h5>
+				        <div class="footer-content">
+					        <ul class="list-unstyled">
+					         	<li><a href="#">Về chúng tôi</a></li>
+					          	<li><a href="./thongtingiaohang.html">Thông tin giao hàng</a></li>
+					          	<li><a href="#">Chính sách bảo mật</a></li>
+					          	<li><a href="#">Điều khoản và điều kiện</a></li>
+					          	<li><a href="#">Liên hệ chúng tôi</a></li>
+					        </ul>
+				        </div>
+			      	</div>
+			      	<div class="col-sm-2">
+			      		<h5>Bổ sung</h5>
+			      		<div class="footer-content">
+					        <ul class="list-unstyled">
+					          <li><a href="#">Nhãn hiệu</a></li>
+					          <li><a href="#">Phiếu quà tặng</a></li>
+					          <li><a href="#">Liên kết</a></li>
+					          <li><a href="#">Đặc biệt</a></li>
+					          <li><a href="#">Bản đồ trang web</a></li>
+					        </ul>
+				        </div>		      		
+			      	</div>
+			      	<div class="col-sm-2">		      		
+			      		<h5>TÀI KHOẢN CỦA TÔI</h5>
+			      		<div class="footer-content">
+					        <ul class="list-unstyled">
+					          <li><a href="#">Tài khoản của tôi</a></li>
+					          <li><a href="#">lịch sử đơn hàng</a></li>
+					          <li><a href="#">Danh sách mong muốn</a></li>
+					          <li><a href="#">Bản tin</a></li>
+					           <li><a href="#">Trả lại</a></li>
+					        </ul>
+				        </div>
+			      	</div>
+			      	<div class="col-sm-3">
+			      		<div class="position-footer-right">
+  							<h5 class="toggled title">LIÊN HỆ CHÚNG TÔI</h5>
+							<ul class="list-unstyled">   
+								<li>      
+									<div class="site">        
+										<i class="fa fa-map-marker"></i>         
+										<div class="contact_site">
+											Địa chỉ:
+										</div>      
+									</div>   
+								</li>   
+								<li>      
+									<div class="phone">         
+										<i class="fa fa-phone"></i>         
+										<div class="contact_site">SDT: </div>      
+									</div>   
+								</li>   
+								<li>      
+									<div class="email">       
+										<i class="fa fa-envelope"></i>         
+										<div class="contact_site">            
+											<a href="mailto:info@Yourstore.com">Email: </a>         
+										</div>      
+									</div>   
+								</li>   
+								<li>      
+									<div class="payment-link">         
+										<h4 class="title">Payment</h4>         
+										<img src="image/catalog/payment.png" alt="">      
+									</div>   
+								</li>
+							</ul>
+						</div>
+			      	</div>
+				</div>			
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer_bottom clearfix">
+				<p class="powered"><a href="#">Tăng Tất Cương</a> Máy tính CT &copy; 2024</p>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<a href="#" class="scrollToTop back-to-top" data-toggle="tooltip" title="Top"></a>
+</body>
+</html>
+<script src="javascript/scripts.js"></script>
+

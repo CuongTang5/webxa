@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin Giao hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .delivery-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .delivery-info h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .delivery-info p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .delivery-info label {
+            font-weight: bold;
+        }
+
+        .delivery-info input[type="text"] {
+            width: calc(50% - 10px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .delivery-info input[type="date"] {
+            width: calc(50% - 10px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .delivery-info input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .delivery-info input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .delivery-info .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Thông tin Giao hàng</h1>
+    </div>
+
+    <div class="delivery-info">
+        <h2>Điền thông tin của bạn</h2>
+        <form action="/submit-delivery-info" method="post">
+            <div class="row">
+                <label for="fullname">Họ và Tên:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="row">
+                <label for="address">Địa chỉ giao hàng:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <div class="row">
+                <label for="phone">Số điện thoại:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <div class="row">
+                <label for="order">Thông tin đơn hàng:</label>
+                <input type="text" id="order" name="order" required>
+            </div>
+
+            <div class="row">
+                <label for="delivery-date">Ngày giao:</label>
+                <input type="date" id="delivery-date" name="delivery-date" required>
+            </div>
+
+            <div class="row">
+                <label for="receive-date">Ngày nhận:</label>
+                <input type="date" id="receive-date" name="receive-date" required>
+            </div>
+
+            <input type="submit" value="Gửi thông tin">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
